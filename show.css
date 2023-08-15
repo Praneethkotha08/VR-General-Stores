@@ -1,0 +1,75 @@
+/* Show section styles */
+.showcase {
+    display: flex;
+    margin: -20px;
+    margin-bottom: 0px;
+  }
+  
+  .show {
+    width: 30%;
+    padding: 20px;
+    background-color: rgb(199, 199, 36);
+    color: white;
+    text-align: center;
+  }
+  
+  .show img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .show a {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(199, 199, 36);
+    color: rgb(60, 60, 194);
+    border-radius: 4px;
+  }
+  
+  .show a:hover {
+    background-color: transparent;
+    color: black;
+  }
+  
+  .show button {
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(60, 60, 194);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .show button:hover {
+    background-color: black;
+    color: rgb(199, 199, 36);
+  }
+  .scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scroll-content {
+    display: inline-block;
+    animation: scrollAnimation 60s linear infinite;
+}
+
+.scroll-content img {
+    width: 400px;
+    height: 250px;
+    margin-right: 5px;
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+  

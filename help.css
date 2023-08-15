@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  .HelpContent {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(60, 60, 194);
+  }
+  
+  h2 {
+    color: rgb(199, 199, 36);
+    text-align: center;
+  }
+  
+  p {
+    color: rgb(199, 199, 36);
+    line-height: 1.6;
+  }
+  
+  .CustomerCare,
+  .FrequentlyAskedQuestions {
+    margin-top: 20px;
+  }
+  
+  .CustomerCare h3,
+  .FrequentlyAskedQuestions h3 {
+    color: rgb(199, 199, 36);
+  }
+  
+  .CustomerCare ul,
+  .FrequentlyAskedQuestions ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .CustomerCare li,
+  .FrequentlyAskedQuestions li {
+    color: rgb(199, 199, 36);
+    margin-bottom: 10px;
+  }
+  
+  .CustomerCare li:before,
+  .FrequentlyAskedQuestions li:before {
+    content: "•";
+    color: #4CAF50;
+    margin-right: 5px;
+  }
+  
+  .CustomerCare a,
+  .FrequentlyAskedQuestions a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .CustomerCare a:hover,
+  .FrequentlyAskedQuestions a:hover {
+    text-decoration: underline;
+  }
+  
